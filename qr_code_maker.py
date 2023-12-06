@@ -49,7 +49,7 @@ for row in sheet.iter_rows(min_row=start_row):
         'DOB': str(row[6].value) if row[6].value else '',
         'Date of Graduation': str(row[7].value) if row[7].value else '',
         'Course of Study': str(row[8].value) if row[8].value else '',
-        'Link': "https://www.dominionuniversity.edu.ng/",
+        'Link': "https://www.school.edu.ng/",
     }
 
     # Get the embedded image as bytes and encode it in base64
